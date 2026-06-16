@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lunes 15 de junio del 2026 - carta</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Montserrat',sans-serif;
+    background:
+    radial-gradient(circle at top, rgba(102,51,153,0.35), transparent 35%),
+    radial-gradient(circle at bottom, rgba(255,105,180,0.15), transparent 35%),
+    linear-gradient(180deg,#090511,#12071d,#05030b);
+    color:#f8f3ff;
+    overflow-x:hidden;
+    min-height:100vh;
+    padding:40px 20px;
+}
+
+/* Estrellas */
+
+body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    background-image:
+    radial-gradient(white 1px, transparent 1px);
+    background-size:40px 40px;
+    opacity:.18;
+    pointer-events:none;
+}
+
+/* Contenedor */
+
+.contenedor{
+    max-width:900px;
+    margin:auto;
+}
+
+/* Música */
+
+.musica{
+    text-align:center;
+    margin-bottom:35px;
+}
+
+.musica h3{
+    font-family:'Cinzel',serif;
+    color:#d8b4ff;
+    margin-bottom:15px;
+    letter-spacing:2px;
+}
+
+iframe{
+    width:100%;
+    max-width:700px;
+    height:180px;
+    border:none;
+    border-radius:25px;
+    box-shadow:
+    0 0 30px rgba(173,111,255,.35),
+    0 0 60px rgba(173,111,255,.15);
+}
+
+/* Carta */
+
+.carta{
+    position:relative;
+    background:rgba(16,10,25,.78);
+    backdrop-filter:blur(12px);
+    border-radius:40px;
+    padding:60px;
+    overflow:hidden;
+    border:1px solid rgba(213,167,255,.25);
+
+    box-shadow:
+    0 0 40px rgba(181,123,255,.18),
+    inset 0 0 30px rgba(255,255,255,.03);
+}
+
+/* Decoración */
+
+.carta::before{
+    content:"⚜";
+    position:absolute;
+    top:20px;
+    left:25px;
+    font-size:60px;
+    color:rgba(201,151,255,.25);
+}
+
+.carta::after{
+    content:"🏛";
+    position:absolute;
+    bottom:20px;
+    right:25px;
+    font-size:55px;
+    color:rgba(201,151,255,.20);
+}
+
+/* Título */
+
+.titulo{
+    text-align:center;
+    margin-bottom:45px;
+}
+
+.titulo h1{
+    font-family:'Cinzel',serif;
+    font-size:2.5rem;
+    color:#f3d7ff;
+    line-height:1.4;
+    text-shadow:
+    0 0 12px rgba(214,156,255,.7);
+}
+
+.subtitulo{
+    margin-top:15px;
+    color:#dcbcff;
+    letter-spacing:4px;
+}
+
+/* Texto */
+
+.contenido{
+    font-size:1.15rem;
+    line-height:2.1;
+    text-align:justify;
+}
+
+.contenido p{
+    margin-bottom:30px;
+}
+
+strong{
+    color:#ffe0ff;
+}
+
+/* Firma */
+
+.firma{
+    text-align:right;
+    margin-top:50px;
+}
+
+.firma h2{
+    font-family:'Cinzel',serif;
+    color:#f4d3ff;
+    margin-bottom:8px;
+}
+
+.firma p{
+    color:#d9b3ff;
+    font-size:1.1rem;
+}
+
+/* Frase neón */
+
+.frase-neon{
+    margin-top:70px;
+    text-align:center;
+    font-size:1.35rem;
+    line-height:2;
+    color:#f5d8ff;
+    font-weight:600;
+
+    text-shadow:
+    0 0 5px #d24fff,
+    0 0 10px #d24fff,
+    0 0 20px #d24fff,
+    0 0 35px #b000ff,
+    0 0 60px #b000ff;
+}
+
+/* Botón */
+
+.boton{
+    text-align:center;
+    margin-top:55px;
+}
+
+.boton a{
+    display:inline-block;
+    text-decoration:none;
+    padding:18px 40px;
+    border-radius:50px;
+    color:white;
+    font-weight:600;
+    letter-spacing:2px;
+
+    background:linear-gradient(135deg,#7d2cff,#d84dff);
+
+    box-shadow:
+    0 0 20px rgba(175,67,255,.5),
+    0 0 40px rgba(175,67,255,.3);
+
+    transition:.4s;
+}
+
+.boton a:hover{
+    transform:translateY(-5px) scale(1.05);
+
+    box-shadow:
+    0 0 30px rgba(219,92,255,.7),
+    0 0 60px rgba(219,92,255,.4);
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .carta{
+        padding:40px 28px;
+    }
+
+    .titulo h1{
+        font-size:2rem;
+    }
+
+    .contenido{
+        font-size:1.05rem;
+        line-height:1.9;
+    }
+
+    iframe{
+        height:160px;
+    }
+
+    .frase-neon{
+        font-size:1.15rem;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="contenedor">
+
+    <!-- Música -->
+    <div class="musica">
+
+        <h3>✧ elegí esta canción exactamente por que te la dedico minuto 1:34 al 1:48 pero si te gusta la canción te dedico de comienzo a fin ✧</h3>
+
+        <iframe
+        src="https://www.youtube.com/embed/_WuqaoUOMGg?autoplay=0"
+        allowfullscreen>
+        </iframe>
+
+    </div>
+
+    <!-- Carta -->
+
+    <div class="carta">
+
+        <div class="titulo">
+
+            <h1>
+                <strong>AUNQUE HADES ME LLAMARA,<br>
+                ELEGIRÍA TU NOMBRE</strong>
+            </h1>
+
+            <div class="subtitulo">
+                Una promesa escrita bajo el cielo de Grecia
+            </div>
+
+        </div>
+
+        <div class="contenido">
+
+            <p>
+                <strong>MI MUJER HERMOSA</strong>
+            </p>
+
+            <p>
+                Esta noche de lunes, 15 de junio de 2026, mientras la oscuridad cubre el cielo y el mundo parece rendirse al silencio, pienso en las historias que sobrevivieron al paso del tiempo. Historias de dioses, héroes y amores imposibles.
+            </p>
+
+            <p>
+                Dicen que Hércules descendió a las profundidades del inframundo y enfrentó aquello que hacía temblar a los hombres. Otros cuentan que hubo quienes desafiaron el destino por amor, aun sabiendo que podían perderlo todo. Y cada vez que escucho esas leyendas, comprendo algo que jamás había entendido antes de conocerte: el verdadero valor no nace de la fuerza, sino de la intensidad con la que se ama.
+            </p>
+
+            <p>
+                Porque si Hades me ofreciera un trato para alejarme de ti a cambio de gloria, riqueza o eternidad, lo rechazaría sin dudar. Y si, por el contrario, me pidiera atravesar las puertas del infierno para volver a tomar tu mano, descendería sin miedo. Caminaría entre sombras, enfrentaría monstruos y desafiaría al propio destino con tal de regresar a tu lado.
+            </p>
+
+            <p>
+                Porque tú eres más valiosa que cualquier reino, más poderosa que cualquier mito y más eterna que cualquier constelación escrita por los dioses.
+            </p>
+
+            <p>
+                Te amo con una pasión que no conoce límites ni prudencia. Te amo con esa intensidad que hace que el corazón olvide el miedo y recuerde únicamente aquello por lo que vale la pena luchar. Te amo cuando ríes, cuando sueñas, cuando me miras, e incluso en la distancia, porque tu existencia se convirtió en mi lugar favorito en este universo.
+            </p>
+
+            <p>
+                Si algún día escribieran nuestra historia, me gustaría que dijeran que hubo un hombre que encontró a la mujer más extraordinaria del mundo y que, por ella, habría sido capaz de desafiar al mismísimo Hades.
+            </p>
+
+            <p>
+                <strong>Y ese hombre soy yo.</strong>
+            </p>
+
+            <p>
+                Porque si los dioses existen, entonces deben saber que mi milagro más grande no fue vencer monstruos ni conquistar imperios.
+            </p>
+
+            <p>
+                <strong>Fue encontrarte a ti.</strong>
+            </p>
+
+            <p>
+                Te amo esta noche, te amaré mañana y seguiré eligiéndote una y otra vez, en esta vida y en todas aquellas que el destino decida concedernos.
+            </p>
+
+        </div>
+
+        <div class="firma">
+
+            <h2><strong>Con todo mi amor, mi deseo y mi alma,</strong></h2>
+
+            <p>
+                Tu eterno enamorado.<br>
+                <strong>JUAN KALETH MENDOZA PRIMERA ❤️</strong>
+            </p>
+
+        </div>
+
+        <div class="frase-neon">
+
+            "Y si las Moiras intentaran reescribir mi destino,
+            rompería los hilos del universo para volver a encontrarte,
+            porque ni el Olimpo, ni el inframundo, ni la eternidad
+            poseen una fuerza más poderosa que este amor.
+            Entre millones de estrellas y miles de vidas posibles,
+            mi alma siempre reconocerá la tuya,
+            y mi corazón volverá a pronunciar el mismo nombre
+            como su plegaria más sagrada:
+            <strong>VALERIA PETRO VILLAZÓN.</strong>"
+            
+        </div>
+
+        <div class="boton">
+
+            <a href=""
+               target="_blank">
+
+               ✨ EL Poema De Esta Noche ✨
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+              </html>
